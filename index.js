@@ -17,7 +17,7 @@ module.exports = {
     ],
     "declaration-block-trailing-semicolon": "always",
     "declaration-colon-newline-after": "always-multi-line",
-    "declaration-colon-space-after": "always",
+    "declaration-colon-space-after": "always-single-line",
     "declaration-colon-space-before": "never",
     "declaration-no-important": true,
     "font-family-name-quotes": "always-unless-keyword",
