@@ -1,3 +1,8 @@
+# 0.2.0
+
+* Always use single quotes instead of double quotes.
+* Update handling of value-list new lines and spacing.
+
 # 0.1.3
 
 * Set browserhacks to true
