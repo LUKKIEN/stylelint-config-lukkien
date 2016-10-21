@@ -1,5 +1,5 @@
 language: node_js
-sudo: false
+
 node_js:
   - '6'
   - '5'
@@ -9,3 +9,18 @@ notifications:
   email:
     on_success: never
     on_failure: always
+
+cache:
+  directories:
+    - $HOME/.npm
+    - $HOME/.yarn-cache
+    - node_modules
+
+before_install:
+  - time npm i -g yarn --cache-min 999999999
+
+install:
+  - time yarn
+
+script:
+  - time yarn start build && time yarn start deploy
