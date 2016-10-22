@@ -17,10 +17,10 @@ cache:
     - node_modules
 
 before_install:
-  - npm i -g yarn --cache-min 999999999
+  - time npm i -g yarn
 
 install:
-  - yarn
+  - time yarn
 
-script:
+test:
   - yarn lint
