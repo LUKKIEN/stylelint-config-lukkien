@@ -10,7 +10,13 @@ Configuration rules to ensure your CSS code is compliant with Lukkien code style
 ## Installation
 
 ```console
-$ npm install stylelint-config-lukkien
+npm install stylelint-config-lukkien
+```
+
+or
+
+```console
+yarn install stylelint-config-lukkien
 ```
 
 ## Usage
