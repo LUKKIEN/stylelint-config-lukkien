@@ -1,6 +1,7 @@
 language: node_js
 
 node_js:
+  - '7'
   - '6'
   - '5'
   - '4'
@@ -15,12 +16,6 @@ cache:
     - $HOME/.npm
     - $HOME/.yarn-cache
     - node_modules
-
-before_install:
-  - time npm i -g yarn
-
-install:
-  - time yarn
 
 test:
   - yarn lint
