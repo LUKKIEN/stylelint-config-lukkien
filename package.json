@@ -1,6 +1,6 @@
 {
   "name": "stylelint-config-lukkien",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "Lukkien config for stylelint",
   "main": "index.js",
   "scripts": {
@@ -24,10 +24,10 @@
   },
   "homepage": "https://github.com/LUKKIEN/stylelint-config-lukkien#readme",
   "devDependencies": {
-    "eslint": "^3.8.1",
+    "eslint": "^3.18.0",
     "eslint-config-stylelint": "^6.0.0",
     "npmpub": "^3.1.0",
-    "stylelint": "^7.5.0"
+    "stylelint": "^7.9.0"
   },
   "eslintConfig": {
     "extends": [

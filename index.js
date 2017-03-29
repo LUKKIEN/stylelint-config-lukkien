@@ -3,12 +3,12 @@
 module.exports = {
   "rules": {
     "block-no-empty": true,
-    "block-no-single-line": true,
+    "block-opening-brace-newline-before": "never-single-line",
+    "block-opening-brace-newline-after": "always",
     "color-hex-case": "lower",
     "color-hex-length": "short",
     "color-named": "never",
     "color-no-invalid-hex": true,
-    "custom-property-no-outside-root": true,
     "declaration-bang-space-after": "never",
     "declaration-bang-space-before": "always",
     "declaration-block-no-duplicate-properties": [
@@ -59,7 +59,7 @@ module.exports = {
     "shorthand-property-no-redundant-values": true,
     "string-no-newline": true,
     "string-quotes": "single",
-    "time-no-imperceptible": true,
+    "time-min-milliseconds": 100,
     "unit-case": "lower",
     "unit-no-unknown": true,
     "value-keyword-case": "lower",

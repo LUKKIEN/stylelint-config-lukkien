@@ -1,3 +1,7 @@
+# 0.3.0
+
+* Prepare for stylelint 8.0 and fix the deprecation warnings.
+
 # 0.2.0
 
 * Always use single quotes instead of double quotes.
