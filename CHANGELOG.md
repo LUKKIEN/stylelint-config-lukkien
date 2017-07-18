@@ -1,3 +1,9 @@
+# 0.4.0
+
+* Removed `` rule since it's deprecated in Stylelint 8
+* Added Stylelint >= 7.8.0 as peer dependency
+* Updated dependencies
+
 # 0.3.0
 
 * Prepare for stylelint 8.0 and fix the deprecation warnings.
