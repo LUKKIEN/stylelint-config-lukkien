@@ -1,3 +1,7 @@
+# 0.4.1
+
+* Removed `selector-no-id` rule since it's deprecated in Stylelint 8
+
 # 0.4.0
 
 * Removed `no-browser-hacks` rule since it's deprecated in Stylelint 8
