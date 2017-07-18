@@ -1,6 +1,6 @@
 # 0.4.0
 
-* Removed `` rule since it's deprecated in Stylelint 8
+* Removed `no-browser-hacks` rule since it's deprecated in Stylelint 8
 * Added Stylelint >= 7.8.0 as peer dependency
 * Updated dependencies
 
