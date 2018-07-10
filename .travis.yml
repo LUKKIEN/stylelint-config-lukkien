@@ -1,16 +1,9 @@
 language: node_js
 
 node_js:
+  - '10'
   - '8'
-  - '7'
   - '6'
-  - '5'
-  - '4'
-
-notifications:
-  email:
-    on_success: never
-    on_failure: always
 
 cache:
   directories:
@@ -18,5 +11,5 @@ cache:
     - $HOME/.yarn-cache
     - node_modules
 
-test:
-  - yarn lint
+script:
+  - yarn run lint
