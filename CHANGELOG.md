@@ -1,4 +1,4 @@
-# 0.5.0 (TBD)
+# 0.5.0 (2018-07-10)
 
 * Pseudo elements should be targetted with a double colon
 * Bump minimum stylelint dependency to version 8
