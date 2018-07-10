@@ -54,6 +54,7 @@ module.exports = {
     "property-no-vendor-prefix": true,
     "selector-list-comma-space-before": "never",
     "selector-list-comma-newline-after": "always",
+    "selector-pseudo-element-colon-notation": "double",
     "shorthand-property-no-redundant-values": true,
     "string-no-newline": true,
     "string-quotes": "single",

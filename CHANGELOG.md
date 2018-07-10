@@ -1,3 +1,8 @@
+# 0.5.0 (TBD)
+
+* Pseudo elements should be targetted with a double colon
+* Bump minimum stylelint dependency to version 8
+
 # 0.4.1
 
 * Removed `selector-no-id` rule since it's deprecated in Stylelint 8
