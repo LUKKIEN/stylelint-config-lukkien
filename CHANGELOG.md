@@ -1,3 +1,7 @@
+# 0.6.0 (XXXX-XX-XX)
+
+* Drop support for Stylelint 8
+
 # 0.5.0 (2018-07-10)
 
 * Pseudo elements should be targetted with a double colon
