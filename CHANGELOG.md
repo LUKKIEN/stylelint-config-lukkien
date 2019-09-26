@@ -1,4 +1,8 @@
-# 0.6.0 (XXXX-XX-XX)
+# 0.6.1 (2019-09-26)
+
+* Bump version for stylelint v11
+
+# 0.6.0 (2019-04-23)
 
 * Drop support for Stylelint 8
 
