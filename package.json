@@ -31,6 +31,9 @@
   "peerDependencies": {
     "stylelint": ">=9"
   },
+  "resolutions": {
+    "lodash": "^4.17.15"
+  },
   "eslintConfig": {
     "extends": [
       "stylelint"
