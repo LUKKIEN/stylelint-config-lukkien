@@ -24,9 +24,9 @@
   },
   "homepage": "https://github.com/LUKKIEN/stylelint-config-lukkien#readme",
   "devDependencies": {
-    "eslint": "^5.16.0",
-    "eslint-config-stylelint": "^11.0.0",
-    "npmpub": "^4.1.0"
+    "eslint": "^6.4.0",
+    "eslint-config-stylelint": "^11.1.0",
+    "npmpub": "^5.0.0"
   },
   "peerDependencies": {
     "stylelint": ">=9"
