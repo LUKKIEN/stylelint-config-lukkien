@@ -1,0 +1,21 @@
+{
+  "name": "stylelint-config-lukkien",
+  "version": "0.7.0",
+  "description": "Lukkien config for stylelint",
+  "license": "BSD-3-Clause",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint . --ignore-path ../../.gitignore",
+    "pretest": "npm run lint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LUKKIEN/stylelint-config-lukkien.git",
+    "directory": "packages/stylelint-config-lukkien"
+  },
+  "keywords": [
+    "stylelint",
+    "stylelint-config",
+    "lukkien"
+  ]
+}
