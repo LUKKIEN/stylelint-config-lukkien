@@ -1,32 +1,15 @@
 {
-  "name": "stylelint-config-lukkien",
-  "version": "0.6.1",
-  "description": "Lukkien config for stylelint",
-  "main": "index.js",
-  "scripts": {
-    "lint": "eslint . --ignore-path .gitignore",
-    "pretest": "npm run lint",
-    "release": "npmpub"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/LUKKIEN/stylelint-config-lukkien.git"
-  },
-  "keywords": [
-    "stylelint",
-    "stylelint-config",
-    "lukkien"
-  ],
+  "private": true,
+  "homepage": "https://github.com/LUKKIEN/stylelint-config-lukkien#readme",
   "author": "Lukkien",
   "license": "BSD-3-Clause",
   "bugs": {
     "url": "https://github.com/LUKKIEN/stylelint-config-lukkien/issues"
   },
-  "homepage": "https://github.com/LUKKIEN/stylelint-config-lukkien#readme",
   "devDependencies": {
     "eslint": "^6.4.0",
     "eslint-config-stylelint": "^11.1.0",
-    "npmpub": "^5.0.0"
+    "lerna": "^3.16.4"
   },
   "peerDependencies": {
     "stylelint": ">=9"
@@ -38,5 +21,8 @@
     "extends": [
       "stylelint"
     ]
+  },
+  "engines": {
+    "node": ">= 8"
   }
 }
