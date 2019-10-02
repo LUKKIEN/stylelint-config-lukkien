@@ -1,3 +1,7 @@
+# 0.7.0 (2019-10-02)
+
+* No breaking changes, prepared the repository for multiple package usage
+
 # 0.6.1 (2019-09-26)
 
 * Bump version for stylelint v11
