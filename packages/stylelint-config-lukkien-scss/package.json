@@ -13,6 +13,9 @@
     "url": "git+https://github.com/LUKKIEN/stylelint-config-lukkien.git",
     "directory": "packages/stylelint-config-lukkien-scss"
   },
+  "peerDependencies": {
+    "stylelint-scss": ">=3"
+  },
   "keywords": [
     "stylelint",
     "stylelint-config",

@@ -8,6 +8,7 @@ Our package provides an extensible shared config according to the guidelines at 
 
 This repository contains the following packages:
 
-* stylelint-config-lukkien - based guidelines for CSS and basic SCSS usage.
+* stylelint-config-lukkien - guidelines for CSS and basic SCSS usage.
+* stylelint-config-lukkien-scss - additional guidelines for SCSS usage.
 
 ## [License](LICENSE)

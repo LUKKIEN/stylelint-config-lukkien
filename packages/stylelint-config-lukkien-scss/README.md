@@ -1,8 +1,9 @@
-# stylelint-config-lukkien
+# stylelint-config-lukkien-scss
 
 [![NPM version](http://img.shields.io/npm/v/stylelint-config-lukkien-scss.svg)](https://www.npmjs.org/package/stylelint-config-lukkien-scss)
 
 Our base Configuration rules to ensure your SCSS code is compliant with Lukkien code style.
+This configuration can be used on top of the stylelint-lukkien-config package in order to be SCSS compliant.
 
 ## Installation
 
@@ -22,9 +23,13 @@ Set your stylelint config to:
 
 ```json
 {
-  "plugins": [
+  "extends": [
+    "stylelint-config-lukkien",
     "stylelint-config-lukkien-scss"
-  ]
+  ],
+  "plugins": [
+    "stylelint-scss"
+  ],
 }
 ```
 
@@ -36,6 +41,10 @@ For example:
 
 ```json
 {
+  "extends": [
+    "stylelint-config-lukkien",
+    "stylelint-config-lukkien-scss"
+  ],
   "plugins": [
     "stylelint-scss"
   ],
