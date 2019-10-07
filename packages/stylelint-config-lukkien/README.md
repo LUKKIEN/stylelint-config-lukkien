@@ -7,13 +7,13 @@ Our base Configuration rules to ensure your CSS code is compliant with Lukkien c
 ## Installation
 
 ```console
-npm install stylelint-config-lukkien
+npm install --save-dev stylelint stylelint-config-lukkien
 ```
 
 or
 
 ```console
-yarn install stylelint-config-lukkien
+yarn install --dev stylelint stylelint-config-lukkien
 ```
 
 ## Usage
