@@ -1,3 +1,7 @@
+# 0.8.0 (2019-10-14)
+
+* Add stylelint-scss configuration as a new package on top the stylelint configuration
+
 # 0.7.0 (2019-10-02)
 
 * No breaking changes, prepared the repository for multiple package usage
