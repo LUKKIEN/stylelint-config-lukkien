@@ -17,7 +17,6 @@ module.exports = {
     // @-function
     // "scss/at-function-pattern": "never",
     "scss/at-function-parentheses-space-before": "never",
-    // "scss/at-function-pa"
 
     // @-if
     "scss/at-if-closing-brace-newline-after": "always-last-in-chain",
