@@ -10,9 +10,6 @@
     "eslint": "^6.4.0",
     "lerna": "^3.16.4"
   },
-  "peerDependencies": {
-    "stylelint": ">=9"
-  },
   "resolutions": {
     "lodash": "^4.17.15"
   },

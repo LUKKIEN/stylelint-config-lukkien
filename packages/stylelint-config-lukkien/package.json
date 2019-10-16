@@ -17,5 +17,8 @@
     "stylelint",
     "stylelint-config",
     "lukkien"
-  ]
+  ],
+  "peerDependencies": {
+    "stylelint": ">=9"
+  }
 }
