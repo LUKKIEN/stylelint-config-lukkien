@@ -15,7 +15,6 @@ module.exports = {
     "scss/at-extend-no-missing-placeholder": true,
 
     // @-function
-    // "scss/at-function-pattern": "never",
     "scss/at-function-parentheses-space-before": "never",
 
     // @-if
@@ -86,7 +85,7 @@ module.exports = {
     "scss/selector-no-redundant-nesting-selector": true,
     "scss/selector-no-union-class-name": null,
 
-    // // General / Sheet
+    // General / Sheet
     "scss/no-dollar-variables": null,
     "scss/no-duplicate-dollar-variables": true
   }
