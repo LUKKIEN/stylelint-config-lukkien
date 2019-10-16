@@ -6,7 +6,7 @@
   "main": "index.js",
   "scripts": {
     "lint": "eslint . --ignore-path ../../.gitignore",
-    "pretest": "npm run lint"
+    "pretest": "yarn run lint"
   },
   "repository": {
     "type": "git",
@@ -14,6 +14,7 @@
     "directory": "packages/stylelint-config-lukkien-scss"
   },
   "peerDependencies": {
+    "stylelint": ">=9",
     "stylelint-scss": ">=3"
   },
   "keywords": [
