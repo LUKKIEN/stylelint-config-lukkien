@@ -1,3 +1,7 @@
+# 0.8.1 (2019-10-16)
+
+* Set peerDependency as an individual package.json property for installation
+
 # 0.8.0 (2019-10-14)
 
 * Add stylelint-scss configuration as a new package on top the stylelint configuration
