@@ -49,7 +49,8 @@ Our base configuration is available within `stylelint-config-lukkien`, whereas o
 
 * Git clone the project
 * Run `nvm install` to make sure you are using the best Node version for development.
-* Run `lerna bootstrap` to install this project and its packages subdependencies.
+* Run `yarn install` for the first time to enable Lerna in your environment.
+* Run `lerna bootstrap` from this point to install this project and its packages subdependencies.
 * Make sure your editor is configured to use [.editorconfig](https://editorconfig.org/).
 
 *Note: Lerna is configured to use yarn*
