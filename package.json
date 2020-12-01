@@ -7,8 +7,8 @@
     "url": "https://github.com/LUKKIEN/stylelint-config-lukkien/issues"
   },
   "devDependencies": {
-    "eslint": "^6.4.0",
-    "lerna": "^3.16.4"
+    "eslint": "^7.14.0",
+    "lerna": "^3.22.1"
   },
   "resolutions": {
     "lodash": "^4.17.15"
